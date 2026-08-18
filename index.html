@@ -2,9 +2,49 @@
 <html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
-    <title>موقعي الشخصي</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>خالد عبدالباقي | الموقع الشخصي</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: system-ui, -apple-system, sans-serif; }
+        body { background-color: #0f172a; color: #f8fafc; line-height: 1.6; padding: 20px; }
+        .container { max-width: 800px; margin: 0 auto; }
+        header { text-align: center; padding: 40px 0 20px; border-bottom: 1px solid #334155; }
+        h1 { font-size: 1.8rem; color: #38bdf8; margin-bottom: 8px; }
+        p.subtitle { color: #94a3b8; font-size: 1rem; }
+        .section { margin: 25px 0; }
+        h2 { font-size: 1.3rem; color: #f1f5f9; margin-bottom: 12px; border-right: 4px solid #38bdf8; padding-right: 10px; }
+        .card { background: #1e293b; border-radius: 12px; padding: 20px; border: 1px solid #334155; }
+        .btn-list { display: flex; flex-direction: column; gap: 10px; margin-top: 15px; }
+        .btn { display: block; text-align: center; padding: 12px 20px; background: #0284c7; color: white; text-decoration: none; border-radius: 8px; font-weight: bold; }
+        footer { text-align: center; padding: 20px 0; color: #64748b; font-size: 0.85rem; border-top: 1px solid #334155; margin-top: 40px; }
+    </style>
 </head>
 <body>
-    <h1>مرحباً بك في موقعي الجديد!</h1>
+    <div class="container">
+        <header>
+            <h1>خالد عبدالباقي عمر الأمين</h1>
+            <p class="subtitle">فنان بصري ومستكشف للفنون والتراث</p>
+        </header>
+
+        <section class="section">
+            <h2>نبذة عني</h2>
+            <div class="card">
+                <p>مرحباً بك في موقعي الشخصي. هنا أشارك أعمالي الفنية في الرسم، البورتريه، المقالات الثقافية، وتوثيق الفنون البصرية.</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>منصاتي وروابطي</h2>
+            <div class="card">
+                <div class="btn-list">
+                    <a href="https://baqiart.blogspot.com" target="_blank" class="btn">مدونة باقي آرت</a>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>© جميع الحقوق محفوظة — خالد عبدالباقي</p>
+        </footer>
+    </div>
 </body>
 </html>
